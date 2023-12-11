@@ -32,9 +32,20 @@ public class MBIPController {
     public String handleRegister2(){
         return "registerpersonalpage";
     }
-    
+
     @RequestMapping("/register3")
     public String handleRegister3(){
         return "registercarbonpage";
     }
+
+    @RequestMapping("/waterConsumption")
+    public String handleWater(){
+        return "waterconsumptionpage";
+    }
+    
+    @RequestMapping("/electricConsumption")
+    public String handleElectric(){
+        return "electricconsumptionpage";
+    }
+
 }
