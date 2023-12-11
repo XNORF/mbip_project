@@ -42,7 +42,7 @@ public class MBIPController {
     public String handleWater(){
         return "waterconsumptionpage";
     }
-    
+
     @RequestMapping("/electricConsumption")
     public String handleElectric(){
         return "electricconsumptionpage";
