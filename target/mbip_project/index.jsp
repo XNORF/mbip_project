@@ -18,10 +18,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm">
-                    <a href="login"><button>Log In</button></a>
+                    <a href="./login"><button>Log In</button></a>
                 </div>
                 <div class="col-sm">
-                    <a href="register"><button>Register</button></a>
+                    <a href="./register"><button>Register</button></a>
                 </div>
             </div>
         </div>

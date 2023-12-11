@@ -19,37 +19,43 @@ public class MBIPController {
     }
 
     @RequestMapping("/root")
-    public String handleHome(){
-        return "loginpage";
+    public String homepage(){
+        return "index";
     }
+    
     @RequestMapping("/login")
-    public String handleLogin(){
+    public String loginpage(){
         return "loginpage";
     }
     
-    @RequestMapping("/register1")
-    public String handleRegister(){
+    @RequestMapping("/register")
+    public String registerpage(){
         return "registeraccountpage";
     }
     
     @RequestMapping("/register2")
-    public String handleRegister2(){
+    public String register2page(){
         return "registerpersonalpage";
     }
 
     @RequestMapping("/register3")
-    public String handleRegister3(){
+    public String register3page(){
         return "registercarbonpage";
     }
 
     @RequestMapping("/waterConsumption")
-    public String handleWater(){
+    public String waterpage(){
         return "waterconsumptionpage";
     }
 
     @RequestMapping("/electricConsumption")
-    public String handleElectric(){
+    public String electricpage(){
         return "electricconsumptionpage";
     }
 
+    @ResponseBody()
+    @RequestMapping("/signin")
+    public String login(HttpServletRequest request){
+        return "login successful";
+    }
 }
