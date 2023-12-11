@@ -15,5 +15,15 @@
     </head>
     <body>
         <h1>Homepage</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <button>Log In</button>
+                </div>
+                <div class="col-sm">
+                    <a href="register"><button>Register</button></a>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

@@ -18,6 +18,10 @@ public class MBIPController {
 
     }
 
+    @RequestMapping("/root")
+    public String handleHome(){
+        return "loginpage";
+    }
     @RequestMapping("/login")
     public String handleLogin(){
         return "loginpage";
